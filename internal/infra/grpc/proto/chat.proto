@@ -1,4 +1,7 @@
 syntax = "proto3";
+
+option go_package = "./chatpb_contract";
+
 package chatpb;
 
 message Message {
